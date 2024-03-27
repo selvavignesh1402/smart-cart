@@ -1,0 +1,219 @@
+/* Reset Styles */
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+  background: #eee;
+}
+
+/* Anchor Styles */
+a {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+/* Navbar Styles */
+#navbar {
+  background: #fff;
+  color: #0d1a26;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  z-index: 10;
+}
+
+.head {
+  font-weight: 100;
+  font-size: 30px;
+  font-family: 'Georgia', 'Times New Roman', 'Times', serif;
+  font-style: italic;
+  color: black;
+}
+
+/* Navigation Wrapper Styles */
+.nav-wrapper {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  .nav-wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 638px) {
+  .nav-wrapper {
+    width: 100%;
+  }
+}
+
+/* Logo Styles */
+.logo {
+  float: left;
+  margin: 0;
+  margin-top: 78px;
+  margin-left: 0;
+  height: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Navbar List Styles */
+#navbar ul {
+  display: inline-block;
+  float: right;
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 30px;
+  text-align: right;
+  transition: transform 0.5s ease-out;
+}
+
+#navbar li {
+  display: inline-block;
+}
+
+/* Navbar Link Styles */
+#navbar li a {
+  color: #0d1a26;
+  display: block;
+  font-size: 18px;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  padding: 0 4px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+
+#navbar li a:hover {
+  color: #1c79b8;
+  transition: all 1s ease;
+}
+
+/* Animated Bottom Line Styles */
+#navbar li a:before,
+#navbar li a:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -1px;
+  background: #0d1a26;
+}
+
+#navbar li a:before {
+  left: 0;
+  transition: 0.5s;
+}
+
+#navbar li a:after {
+  background: #0d1a26;
+  right: 0;
+}
+
+#navbar li a:hover:before {
+  background: #0d1a26;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+#navbar li a:hover:after {
+  background: transparent;
+  width: 100%;
+}
+
+/* Bars Shadows */
+.icon-bars.overlay,
+.icon-bars.overlay::before,
+.icon-bars.overlay::after {
+  background: #b7c7d3;
+}
+
+/* Toggle Menu Icon Styles */
+.menuIcon.toggle .icon-bars,
+.menuIcon.toggle .icon-bars::before,
+.menuIcon.toggle .icon-bars::after,
+.menuIcon.toggle .icon-bars.overlay {
+  transition-delay: 0.1s;
+}
+
+.overlay-menu {
+  background: lightblue;
+  color: #0d1a26;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 15px;
+  transform: translateX(-100%);
+  width: 100vw;
+  height: 100vh;
+  transition: transform 0.2s ease-out;
+}
+
+.overlay-menu ul,
+.overlay-menu li {
+  display: block;
+  position: relative;
+}
+
+.overlay-menu li a {
+  display: block;
+  font-size: 1.8em;
+  letter-spacing: 4px;
+  padding: 10px 0;
+  text-align: right;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.overlay-menu li a:hover,
+.overlay-menu li a:active {
+  color: #1c79b8;
+  transition: color 0.3s ease;
+}
+
+.navcartlogo
+{
+  height: 50px;
+  width: 50px;
+  color: #45a049;
+}
+/* Add these styles to your CSS file or style block */
+
+.navcart-icon {
+  position: relative;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff; /* Choose your background color */
+  border-radius: 5%;
+  color:#003003; /* Choose your text color */
+  font-size: 15px;
+ font-weight: bolder;
+  cursor: pointer;
+}
+
+.navcart-icon span {
+  /* position: absolute; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

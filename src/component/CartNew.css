@@ -1,0 +1,143 @@
+.cart {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-top: 20px;
+    width: 800px;
+    margin-left: 320px;
+    margin-top: 200px;
+  }
+  
+  .cart h2 {
+    color: #333;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    border-bottom: 1px solid #eee;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cartnew {
+    background-color: #4caf50; 
+    color: white; 
+    padding: 10px 15px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+  }
+  .cartnew1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cartnew1 button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .cartnew1 button:hover {
+    background-color: #45a049; 
+  }
+  
+  
+  .cartnew:hover {
+    background-color: #45a049; 
+  }
+  
+  .cartnew2
+  {
+    display: flex;
+    flex-direction: reverse;
+    justify-content: flex-end;
+    
+  }
+
+  .cartnew2 button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 7px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  .cart p {
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .cartlogo
+  {
+    height: 50px;
+    width: 50px;
+    color: #45a049;
+  }
+  
+  
+  .cart-icon {
+    position: relative;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    width: 30px;
+    height: 30px;
+    background-color: #45a049; /* Choose your background color */
+    border-radius: 0%;
+    color: #fff; /* Choose your text color */
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  .cart-icon span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .cartimage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+   }
+   
+   .form-field {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }

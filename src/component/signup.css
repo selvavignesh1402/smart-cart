@@ -1,0 +1,123 @@
+
+.bg
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    z-index: -2;
+    margin-top: 0px;
+}
+ .sform
+{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ECEAE2;
+    height: 530px;
+    width: 800px;
+    margin-top: 170px;
+    margin-left: 620px;
+    box-shadow: 2px 2px 1px #ECEAE2;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+
+}
+.form2
+{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 150px;
+    height: 530px;
+    width: 380px; 
+    background-color: #ECEAE2;
+    
+}
+
+.SUP
+{
+  color:rgb(48, 109, 162);
+  text-shadow: 1px 1px 2px;
+  font-size: large;
+  font-weight: 600;
+}
+
+#Uname
+{
+    border:2px solid #ECEAE2;
+    border-radius: 3px;
+    height: 8px;
+    width: 185px;
+    box-shadow: 2px 2px 1px gray;
+}
+#Pass
+{
+    border:2px solid #ECEAE2;
+    border-radius: 3px;
+    height: 10px;
+    width: 185px;
+    box-shadow: 2px 2px 1px gray;
+}
+#email
+{
+    border:2px solid #ECEAE2;
+    border-radius: 3px;
+    height: 10px;
+    width: 185px;
+    box-shadow: 2px 2px 1px gray;
+}
+#number
+{
+    border:2px solid #ECEAE2;
+    border-radius: 3px;
+    height: 10px;
+    width: 185px;
+    box-shadow: 2px 2px 1px gray;
+}
+
+.logo{
+align-items: center;
+display: flex;
+flex-direction: row;
+margin-top: 110px;
+margin-left: 600px;
+}
+
+/* .head
+{
+  color: rgb(48, 109, 162);
+  font-weight: 700;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 2px 1px 3px;
+} */
+
+.img2
+{
+  height: 80px;
+  width: 110px;
+}
+
+.img1
+{
+  height:200px;
+  transform: scale(200%);
+  width: 200px;
+  margin-top: 155px;
+ margin-left:90px;
+}
+
+.submit{
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 210px;
+    box-shadow: 2px 2px 1px gray;
+    border: 2px solid rgb(48, 109, 162);
+    background-color:rgb(103, 140, 172);
+ 
+}
+.submit:hover
+{
+  background-color: rgb(78, 117, 151);
+}

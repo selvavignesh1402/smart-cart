@@ -1,0 +1,102 @@
+.bg1
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    z-index: -2;
+    margin-top: 0px;
+}
+.main
+{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  border: 1px solid #a1a1a1;
+  height: 400px;
+  width: 620px;
+  margin-top: 250px;
+  margin-left: 750px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  background: transparent;
+  backdrop-filter: blur(2px);
+}
+.Lname
+{
+  text-align: center;
+  color:rgb(24, 81, 130);
+  text-shadow: 1px 1px 2px;
+  font-size: large;
+  font-weight: 600;
+}
+.Login
+{
+ margin-top: 0px;
+ margin-left: 60px;
+ height: 398px;
+ align-items: center;
+ width: 280px; 
+ background-color: #eeece7;
+}
+ .loginimg1
+{
+  height:270px;
+  width: 320px;
+  margin-top: 25px;
+}
+#username
+{
+  border:2px solid #ECEAE2;
+  border-radius: 3px;
+  height: 10px;
+  width: 185px;
+  box-shadow: 2px 2px 1px gray;
+}
+#password
+{
+  border:2px solid #ECEAE2;
+  border-radius: 3px;
+  height: 10px;
+  width: 185px;
+  box-shadow: 2px 2px 1px gray;
+}
+.sigin
+{
+  text-decoration: none;
+  color: black;
+}
+
+.submit1{
+  border-radius: 3px;
+  height: 40px;
+  width: 210px;
+  box-shadow: 2px 2px 1px gray;
+  border: 2px solid rgb(48, 109, 162);
+  background-color:rgb(114, 216, 229);
+  outline: none;
+    border: none;
+ 
+}
+.submit1:hover
+{
+  background-color: rgb(228, 238, 247);
+}
+
+.h1
+{
+  color: rgb(24, 81, 130);
+  font-weight: 900;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 2px 1px 3px;
+  text-align: center;
+}
+
+.logo
+{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 110px;
+  margin-left: 900px;
+}

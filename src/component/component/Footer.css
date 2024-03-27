@@ -1,0 +1,27 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-column {
+    flex: 1;
+    padding: 0 20px;
+  }
+  .line{
+    height: 1px;
+    width:1475px;
+    border:1px solid white;
+  }
+  /* .footer p {
+    margin: 0;
+  } */
+  
+  /* Add additional styles as needed */
+  
