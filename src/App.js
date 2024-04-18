@@ -15,8 +15,6 @@ function App() {
         <BrowserRouter>
         <Navigator/>
         </BrowserRouter>
-        {/* <Cart/> */}
-        {/* <MapNew/> */}
       </div> 
     );
 }
